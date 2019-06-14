@@ -36,7 +36,7 @@ export default class Rythm {
     })
   }
 
-  start = () => {
+  p = () => {
     this.stopped = false
     this.player.start()
     this.analyser.reset()
